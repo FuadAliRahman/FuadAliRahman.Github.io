@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buku Tamu</title>
+  </head>
+  <body>
+    <a name="atas">
+      <img src="./assets/header.jpg" height="180px" width="100%" />
+      <center>
+        <h3>Dinus Student Blog</h3>
+        <hr>
+        <a href="beranda.html">Beranda</a> | <a href="about.html">profil</a> | <a href="artikel.html">artikel</a> | <a href="buku_tamu.html">Buku Tamu</a> |
+        <hr>
+     </center>
+    <form>
+      <p>Nama Lengkap</p>
+      <input type="text" name="nama_lengkap" size="45" />
+      <p>Jenis kelamin</p>
+      Laki-laki<input type="radio" name="jenis_kelamin" value="L" /> Perempuan<input type="radio" name="jenis_kelamin" value="P" />
+      <p>Alamat Tinggal</p>
+      <input type="text" name="alamat_tinggal" size="45" />
+      <p>Email</p>
+      <input type="text" name="email" size="45" />
+      <p>Aktif pada sosial media :</p>
+      <input type="checkbox" name="facebook" value="ya" />facebook <input type="checkbox" name="twitter" value="ya" />twitter <input type="checkbox" name="instagram" value="ya" />instagram
+      <input type="checkbox" name="path" value="ya" />path<br />
+      <p>Mengetahui web ini dari</p>
+      <select name="info">
+        <option selected="select">pilih</option>
+        <option value="web udinus">Web udinus</option>
+        <option value="surat kabar">Surat Kabar</option>
+        <option value="teman kerabat">Teman kerabat</option>
+        <option value="browsing internet">Browsing internet</option></select
+      ><br />
+      <p>Pesan</p>
+      <textarea name="pesan" cols="40" rows="3"></textarea><br />
+      <form action="simpan.php">
+        <input type="submit" value="kirim" />
+        <input type="reset" value="batal" />
+      </form>
+    </form>
+    <hr>
+    <p><b>copyright @2018 Mahasiswa Matrikulasi</b></p>
+    <a href="#atas">ke atas</a>
+  </body>
+</html>
