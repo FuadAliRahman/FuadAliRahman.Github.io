@@ -1,0 +1,16 @@
+.content-index {
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.nav {
+  background-color: rgb(196, 208, 224);
+}
+.footer {
+  background-color: rgb(196, 208, 224);
+  text-align: center;
+}
+.footer a {
+  text-align: right;
+}
