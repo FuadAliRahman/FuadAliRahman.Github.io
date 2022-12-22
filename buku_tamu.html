@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Input Mahasiswa</title>
+  </head>
+  <body>
+    <h2>Form Mahasiswa</h2>
+    <form action="simpan.php" method="post" name="myform">
+      <table>
+        <tbody>
+          <tr>
+            <td>NIM</td>
+            <td><input type="text" name="nim" size="25" required="" /></td>
+          </tr>
+          <tr>
+            <td>Nama</td>
+            <td><input type="text" name="nm" size="25" required="" /></td>
+          </tr>
+          <tr>
+            <td>Tanggal Lahir</td>
+            <td><input type="date" id="birthday" name="birthday" required="" /></td>
+          </tr>
+          <tr>
+            <td>Jenis Kelamin</td>
+            <td>
+              <input type="radio" id="xlk" name="jk" value="Laki-laki" required />
+              <label for="male">Laki-laki</label>
+              <input type="radio" id="xpr" name="jk" value="Perempuan" />
+              <label for="female">Perempuan</label>
+            </td>
+          </tr>
+          <tr>
+            <td>Prodi</td>
+            <td>
+              <select id="prodi" name="prodi" required>
+                <option value="">Pilih Program Studi :</option>
+                <option value="A11">Teknik Informatika S1</option>
+                <option value="A12">Sistem Informasi S1</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="submit" value="simpan" name="spn" /><input type="reset" /></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
